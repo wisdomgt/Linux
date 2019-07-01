@@ -1,0 +1,1 @@
+java  -javaagent:/usr/share/elastic-apm-agent/elastic-apm-agent-1.7.0.jar -Delastic.apm.service_name=petclinic -Delastic.apm.application_packages=spring-petclinic -Delastic.apm.server_urls=http://sves0002:8200 -jar target/*.jar
